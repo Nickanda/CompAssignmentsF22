@@ -1,0 +1,21 @@
+# 1
+
+query {
+  contributor(id: 1) {
+    content {
+      title
+    }
+  }
+}
+
+# 2
+
+query {
+  content(slug: "why-yelan-is-gamechanging") {
+   	contributors {
+      firstName
+      middleName
+      lastName
+    }
+  }
+}
